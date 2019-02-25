@@ -1,0 +1,279 @@
+
+body{
+font-family: "Titillium Web", sans-serif;
+margin:0;
+padding: 0;
+color: #8e9696;
+overflow-x: hidden;
+}
+
+
+/* top nav bar */
+
+.container{
+	margin-top: 150px;
+}
+
+span{
+	color: #fe6d34;
+}
+
+.btn{
+
+	background: #fe6d34;
+	border-radius: 20px;
+	color:white;
+	height: 43px;
+	
+	
+}
+
+h1{
+	color: #143d3c;
+}
+
+.container h1+p {
+	margin-top: 30px;
+}
+
+ hr{
+
+ 	width: 90%;
+ 	margin-top: 60px;
+
+ }
+
+.card{
+
+	 box-shadow: -5px 4px 9px 9px rgba(135, 233, 144, 0.1);
+}
+
+input{
+	opacity: 0.5;
+}
+
+textarea{
+	opacity: 0.5;
+}
+
+/* ********************************** top nav bar ************************************ */
+
+
+
+#topnavbar{
+
+     border: 1px hidden black;
+	 background: #262626;
+	 height: 60px;
+	 width: 100%;
+	 
+}
+
+/* logobrand*/
+
+
+.logo-brand{
+     	
+	margin-top: 10px; 
+	margin-left: 150px;
+	float: left;
+
+}
+
+
+.buy-button{
+
+	float: right;
+	margin-top: 12px;
+}
+
+.remove-frame{
+	
+	float: right;
+	margin: 10px;
+	border-left: 1px solid lightgray;
+}
+
+
+.topnavbar .removeframe{
+
+	font-size: 13px;
+}
+
+
+.listend{
+
+	border-left:1px solid lightgray;
+
+}
+
+.topnavbar .logo{
+
+	margin-top: -15px;
+
+}
+
+
+
+@media screen and (max-width: 1155px){
+
+.topnavbar .framelink .removeframe{
+
+	display: none;
+
+}
+
+}
+
+.btn-buy{
+
+	border-radius:4px;
+	background: green;
+	height: 35px;
+	font-size: 15px;
+	max-width: 100px;
+	position: absolute;
+	margin-left: -85px;
+
+}
+
+.btn-buy .buynow{
+	margin-top: -15px;
+
+}
+
+
+
+@media screen and (max-width: 1590px){
+
+   .topnavbar{
+   	width: 100%;
+   }
+
+   .remove-frame span{
+   	display: none;
+   }
+
+}
+
+/* *** correction the position of logo on the top navbar *** */
+
+@media screen and (max-width: 1645px){
+	.logo-brand{
+		
+		margin-left: -40px;
+	}
+}
+
+/* ** button hamburger ** */
+
+.contnav .navbar-toggler i{
+	margin-left: 25px;
+	background: #fe6d34;
+	font-size: 35px;
+	margin-top: -5px;
+}
+
+.navbar-toggler{
+	border: none;
+	background: white;
+}
+
+/* ********************************** second nav bar ********************************* */
+
+.corp{
+	border: 1px solid black;
+	height: 1500px;
+	overflow-x: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+.navbar{
+	margin-top: 50px;
+}
+
+.center-content{
+	margin: 0 auto;
+}
+
+.center-content li{
+	padding: 13px;
+	font-size: 20px;
+}
+
+.number{
+	font-size: 20px;
+	color: black;
+}
+
+.icon{
+	font-size: 45px;
+	
+	margin-top: -10px;
+}
+
+
+
+.back-image{
+	margin-top: -760px;
+	transform: rotate(90deg);
+	margin-left: -35px;
+	z-index: -10;
+}
+
+
+.center-content li:nth-child(1) a{
+	border-bottom: 3px solid red;
+	margin-left: 270px;
+
+}
+
+
+.left-content-icon{
+	margin-left: 70px;
+}
+
+.left-content-icon i{
+	color:  #fe6d34;
+}
+
+.left-content-texte{
+
+margin-top: -15px;
+}
+
+.navbar-brand{
+	margin-top: -15px;
+	margin-left: 50px;
+}
+
+/*  navcontainer : frame of top navbar */ 
+
+.navcontainer{
+	border: 1px hidden black;
+	margin: 0 auto;
+	max-width: 1700px;
+}
+
+.number{
+	font-size: 30px;
+}
+
+/* hover effect */
+
+
+
+/* hiddinf contact number */
+@media screen and (max-width: 1222px){
+
+	.icon{
+		display: none;
+	}
+	
+
+	.number{
+		display: none;
+	}
+}
