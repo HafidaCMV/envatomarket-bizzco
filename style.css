@@ -357,3 +357,50 @@ font-weight: bolder;
 		display: none;
 	}
 }
+
+
+
+/* ********** section : we are loading international Consulting Agency *********** */
+
+.agency-title{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 38px;
+color: #272063;
+margin-top: 50px;
+font-weight: bolder;
+}
+
+
+.check-icon{
+	font-size: 33px;
+	margin-top: 8px;
+	color: #272063;
+
+}
+
+.bouton-contact-us{
+	
+	width: 170px;
+	font-size: 13px;
+	min-height: 55px;
+	border-radius: 70px;
+	background: #ff4745;
+	border-color:#ff4745;
+}
+
+.texte-liste{
+	font-size: 14.7px;
+}
+
+/* **** image-back-1 ***** */
+
+.image-back-2{
+	
+    float: right;
+	margin-top: -151px;
+	z-index: -5;
+	margin-right: 61px;
+}
+
+
