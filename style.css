@@ -363,12 +363,14 @@ font-weight: bolder;
 /* ********** section : we are loading international Consulting Agency *********** */
 
 .agency-title{
+
 font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-size: 38px;
 color: #272063;
 margin-top: 50px;
 font-weight: bolder;
+
 }
 
 
@@ -403,4 +405,94 @@ font-weight: bolder;
 	margin-right: 61px;
 }
 
+/* *********** section: what we do ************** */
 
+
+.whatwedo span+h1{
+	margin-top: 17px;
+}
+
+.whatwedocards{
+	margin-top: 50px;
+}
+
+.whatwedocards i{
+font-size: 70px;
+color: #ff4745;
+}
+
+.title-2{
+	font-size: 27px;
+	color: #272063;
+}
+
+.texte-card{
+	max-width: 330px;
+	font-size: 15px;
+}
+
+.section-2{
+	margin-top: 100px;
+}
+
+.links{
+	color: #a09db9;
+}
+
+/* hover effect on links */
+
+.links:hover {
+	color: #272063;
+}
+
+/* hover effect on titles */
+.title-2:hover{
+	color: #ff4745;
+}
+
+.image-back-3{
+
+	float: left;
+	z-index: -5;
+	margin-top: -110px;
+	margin-left: 40px;
+}
+
+/* ******* client feedback ****** */
+.image-back-4{
+
+	float: left;
+	margin-top: 150px;
+	
+}
+
+.image-back-4-1{
+	float: left;
+	margin-top: 350px;
+	margin-left: -150px;
+}
+
+.image-back-4-2{
+margin-top: 580px;
+margin-left: -150px;
+}
+
+.image-back-5{
+	
+	float: right;
+	margin-top: -580px;
+	margin-right: 190px;
+}
+
+.image-back-5-1{
+	
+	float: right;
+	margin-top: -380px;
+}
+
+.image-back-5-2{
+	
+	float: right;
+	margin-top: -150px;
+	margin-right: 190px;
+}
