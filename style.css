@@ -534,14 +534,14 @@ animation: pop linear 3s infinite;
 .image-back-5-1{
 	
 	float: right;
-	margin-top: -470px;
+	margin-top: -430px;
 	animation: pop linear 5s infinite;
 }
 
 .image-back-5-2{
 	
 	float: right;
-	margin-top: -200px;
+	margin-top: -170px;
 	margin-right: 190px;
 	animation: pop linear 4s infinite;
 }
@@ -555,22 +555,11 @@ animation: pop linear 3s infinite;
 	100%{transform: scale(0.8)}
 }
 
-.feedback-client h1 + .card{
-	margin-top: 50px;
-}
 
-.feedback-client .card{
 
-	height: 380px;
-	width: 50rem;
-	margin: 0 auto;
-}
-
-.feedback-client span:nth-child(1){
-
-font-size: 22px;
-letter-spacing: 2px;
-
+.quotebloc{
+	border: 1px solid lightgray;
+	margin-top: 80px;
 }
 
 
