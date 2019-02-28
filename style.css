@@ -670,3 +670,32 @@ background-size: 130px;
 
 }
 
+
+/* ****** section : intellignet websites ******** */
+
+.major-container-website{
+	margin-top: 150px;
+}
+
+.title-3{
+	font-size: 55px;
+	color:#272063;
+	font-family: "Rubik";
+	z-index: 10;
+}
+
+.intelligent-container{
+	margin-top: 100px;
+}
+
+.intelligent-container p{
+	font-size: 95px;
+	color: #ff4745;
+}
+
+.intelligent-container span{
+	color: #272063;
+	font-size: 33px;
+	font-family: "Rubik";
+}
+
