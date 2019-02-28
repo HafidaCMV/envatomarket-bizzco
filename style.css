@@ -317,29 +317,32 @@ font-weight: bolder;
 
 .title-1{
 
-	font-size: 21px;
+	font-size: 24px;
 	color: #272063;
 }
 
 
-.cards span i{
-	font-size: 37px;
+.cards i{
+	font-size: 55px;
 	color:  #ff4745;
     transform: scale(1);
+    margin-top: 5px;
 }
 
 .cards a{
 
 	text-decoration: none;
 	color: lightgray;
+    
 }
 
 .title-1:hover{
 
 	color: #ff4745;
+
 }
 
-.cards span i:hover{
+.cards i:hover{
 	transform: scale(1.1);
 }
 
@@ -350,6 +353,22 @@ font-weight: bolder;
 	z-index: -5;
 }
 
+.media{
+	margin-top: 50px;
+}
+
+.media-body{
+	line-height: 25px;
+}
+
+.media-body .readme{
+	margin-top: -80px;
+	color: gray;
+}
+
+.readme:hover{
+	color: #272063;
+}
 /* ***** hidding image-back-1 ***** */
 
 @media screen and (max-width: 1222px){
@@ -389,10 +408,12 @@ font-weight: bolder;
 	border-radius: 70px;
 	background: #ff4745;
 	border-color:#ff4745;
+	color: white;
+	margin-top: 25px;
 }
 
 .texte-liste{
-	font-size: 14.7px;
+	font-size: 14.8px;
 }
 
 /* **** image-back-1 ***** */
@@ -405,8 +426,20 @@ font-weight: bolder;
 	margin-right: 61px;
 }
 
+.media-liste{
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+p + .media{
+	margin-top: 35px;
+}
 /* *********** section: what we do ************** */
 
+.whatwedo span:nth-child(1){
+	font-size: 17px;
+	letter-spacing: 2.5px;
+}
 
 .whatwedo span+h1{
 	margin-top: 17px;
@@ -422,13 +455,15 @@ color: #ff4745;
 }
 
 .title-2{
-	font-size: 27px;
+	font-size: 35px;
 	color: #272063;
 }
 
 .texte-card{
 	max-width: 330px;
-	font-size: 15px;
+	font-size: 14.5px;
+	word-spacing: 1px;
+	line-height: 2;
 }
 
 .section-2{
@@ -458,41 +493,155 @@ color: #ff4745;
 	margin-left: 40px;
 }
 
+.agency-title{
+	font-size: 40px;
+}
 /* ******* client feedback ****** */
+
 .image-back-4{
 
 	float: left;
-	margin-top: 150px;
-	
+	margin-top: -580px;
+	margin-left: 200px;
+	animation: pop linear 3s infinite;
+
 }
 
 .image-back-4-1{
+
 	float: left;
-	margin-top: 350px;
-	margin-left: -150px;
+	margin-top: -290px;
+	margin-left: 10px;
+	animation: pop linear 5s infinite;
 }
 
 .image-back-4-2{
-margin-top: 580px;
-margin-left: -150px;
+
+margin-top: -120px;
+margin-left: 180px;
+animation: pop linear 3s infinite;
+
 }
 
 .image-back-5{
 	
 	float: right;
-	margin-top: -580px;
+	margin-top: -610px;
 	margin-right: 190px;
+	animation: pop linear 4s infinite;
 }
 
 .image-back-5-1{
 	
 	float: right;
-	margin-top: -380px;
+	margin-top: -470px;
+	animation: pop linear 5s infinite;
 }
 
 .image-back-5-2{
 	
 	float: right;
-	margin-top: -150px;
+	margin-top: -200px;
 	margin-right: 190px;
+	animation: pop linear 4s infinite;
+}
+
+
+@keyframes pop{
+	0%{ transform: scale(0.8)}
+	20%{ transform: scale(0.8)}
+	50%{ transform: scale(1)}
+	70%{ transform: scale(1)}
+	100%{transform: scale(0.8)}
+}
+
+.feedback-client h1 + .card{
+	margin-top: 50px;
+}
+
+.feedback-client .card{
+
+	height: 380px;
+	width: 50rem;
+	margin: 0 auto;
+}
+
+.feedback-client span:nth-child(1){
+
+font-size: 22px;
+letter-spacing: 2px;
+
+}
+
+
+.feedback-client h1{
+	color: #272063;
+	margin-top: 15px;
+}
+
+
+.feedback-client .media-body p{
+	font-size: 26.5px;
+	line-height: 2;
+	color: #272063;
+}
+
+.feedback-client .media-body footer{
+	color:  #ff4745;
+	font-size: 20px;
+}
+
+.feedback-client .media-body cite{
+
+	color: gray;
+	font-size: 16px;
+}
+
+.feedback-client .media-body{
+
+background: url('image/quote-shape-2.png') no-repeat;
+background-position: center;
+background-size: 130px;
+
+}
+
+/* ** hidding client photos at 1484px ** */
+
+@media screen and (max-width: 1484px){
+
+.image-back-5 {
+	display: none;
+}
+
+.image-back-5-1 {
+	display: none;
+}
+
+.image-back-5-2{
+	display: none;
+}
+
+
+.image-back-4{
+	display: none;
+}
+
+.image-back-4-1{
+	display: none;
+}
+
+.image-back-4-2{
+	display: none;
+}
+
+
+}
+
+@media screen and (max-width: 1001px){
+	.feedback-client .card{
+       
+         margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px;
+	}
 }
