@@ -678,6 +678,7 @@ background-size: 130px;
 }
 
 .title-3{
+
 	font-size: 55px;
 	color:#272063;
 	font-family: "Rubik";
@@ -709,7 +710,76 @@ background-size: 130px;
 	margin-top: 50px;
 }
 .client-image h5{
+
 	font-family: "Poppins", sans-serif;
 	color:#272063;
 	margin-top: 30px;
+}
+
+.our-expert .card{
+
+	margin-top: 150px;
+}
+
+.our-expert .card .card-title{
+	color: #272063;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.our-expert .card .name{
+	color: #ff4745;
+}
+
+.our-expert .card .date{
+	color:#272063;
+}
+
+.our-expert .card .comments{
+	color:#272063;
+}
+
+
+/* **** newsletter **** */
+
+
+.newsletters h1{
+
+	font-size: 48px;
+	color:#272063;
+	margin-top: 80px;
+	font-family: "Poppins", sans-serif;
+	margin-left: -70px;
+
+}
+
+
+
+.newsletters span{
+
+	font-size: 15px;
+	color:#272063;
+	font-family: "Poppins", sans-serif;
+	margin-left: 33px;
+	
+}
+
+.newsletters textarea{
+
+	margin-top: 110px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin-left: 50px;
+	border-bottom: 1px solid lightgray;
+	font-size: 20px;
+	height: 55px;
+}
+
+.newsletters button{
+	margin-top: 105px;
+	margin-left: -55px;
+	height: 60px;
+	width: 170px;
+	font-size: 18px;
 }
