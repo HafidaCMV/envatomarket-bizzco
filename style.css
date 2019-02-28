@@ -699,3 +699,17 @@ background-size: 130px;
 	font-family: "Rubik";
 }
 
+/* ****** Our expert **** */
+
+.our-expert span + h1{
+	margin-top: 20px;
+}
+
+.client-image{
+	margin-top: 50px;
+}
+.client-image h5{
+	font-family: "Poppins", sans-serif;
+	color:#272063;
+	margin-top: 30px;
+}
