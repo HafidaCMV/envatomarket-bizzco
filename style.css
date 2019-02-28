@@ -394,6 +394,7 @@ font-weight: bolder;
 
 
 .check-icon{
+
 	font-size: 33px;
 	margin-top: 8px;
 	color: #272063;
@@ -622,15 +623,50 @@ background-size: 130px;
 .image-back-4-2{
 	display: none;
 }
+}
 
+/* ******************** our work ****************** */
+
+.ourworkcontainer span{
+	letter-spacing: 2px;
+}
+.ourworkcontainer h1{
+	font-size: 45px;
+}
+
+.ourworkcontainer ul li{
+	padding: 15px;
+	
+}
+
+.ourworkcontainer h1+ul {
+	margin-top: 70px;
+}
+
+.ourworkcontainer span+h1{
+	margin-top: 10px;
+}
+
+.ourworkcontainer li{
+	border-bottom: 4px solid gray;
+    font-size: 20px;
+}
+
+.ourworkcontainer a{
+	text-decoration: none;
+	color:#9290a3;
+}
+
+.ourworkcontainer li:nth-child(1){
+	border-color:#ff4745;
+}
+
+.ourworkcontainer li:hover{
+	border-color: #ff4745;
+}
+
+.image-work{
+	margin-top: 50px;
 
 }
 
-@media screen and (max-width: 1001px){
-	.feedback-client .card{
-       
-         margin: 0 auto; 
-        float: none; 
-        margin-bottom: 10px;
-	}
-}
