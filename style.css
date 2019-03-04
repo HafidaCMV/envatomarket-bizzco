@@ -40,10 +40,7 @@ h1{
 
  }
 
-.card{
 
-	 box-shadow: -5px 4px 9px 9px rgba(135, 233, 144, 0.1);
-}
 
 input{
 	opacity: 0.5;
@@ -158,7 +155,7 @@ textarea{
 @media screen and (max-width: 1645px){
 	.logo-brand{
 		
-		margin-left: -40px;
+		margin-left: 30px;
 	}
 }
 
@@ -196,7 +193,7 @@ textarea{
 }
 
 .navbar .container{
-
+    
 	margin-top: 100px;
 }
 
@@ -249,7 +246,6 @@ ul li{
 	display: inline;
 	padding: 30px;
 }
-
 
 .needhelp{
 	position: absolute;
@@ -497,6 +493,7 @@ color: #ff4745;
 .agency-title{
 	font-size: 40px;
 }
+
 /* ******* client feedback ****** */
 
 .image-back-4{
@@ -549,6 +546,7 @@ animation: pop linear 3s infinite;
 
 
 @keyframes pop{
+
 	0%{ transform: scale(0.8)}
 	20%{ transform: scale(0.8)}
 	50%{ transform: scale(1)}
@@ -559,24 +557,28 @@ animation: pop linear 3s infinite;
 
 
 .quotebloc{
+
 	border: 1px solid lightgray;
 	margin-top: 80px;
 }
 
 
 .feedback-client h1{
+
 	color: #272063;
 	margin-top: 15px;
 }
 
 
 .feedback-client .media-body p{
+
 	font-size: 26.5px;
 	line-height: 2;
 	color: #272063;
 }
 
 .feedback-client .media-body footer{
+
 	color:  #ff4745;
 	font-size: 20px;
 }
@@ -627,14 +629,24 @@ background-size: 130px;
 
 /* ******************** our work ****************** */
 
+.ourworkcontainer {
+
+	border: 1px hidden black;
+	max-width: 1350px;
+}
+
 .ourworkcontainer span{
+
 	letter-spacing: 2px;
 }
+
 .ourworkcontainer h1{
+
 	font-size: 45px;
 }
 
 .ourworkcontainer ul li{
+
 	padding: 15px;
 	
 }
@@ -648,7 +660,7 @@ background-size: 130px;
 }
 
 .ourworkcontainer li{
-	border-bottom: 4px solid gray;
+	border-bottom: 4px solid #f3f7f9;
     font-size: 20px;
 }
 
@@ -674,6 +686,7 @@ background-size: 130px;
 /* ****** section : intellignet websites ******** */
 
 .major-container-website{
+	
 	margin-top: 150px;
 }
 
@@ -686,73 +699,117 @@ background-size: 130px;
 }
 
 .intelligent-container{
+
 	margin-top: 100px;
 }
 
 .intelligent-container p{
+
 	font-size: 95px;
 	color: #ff4745;
 }
 
 .intelligent-container span{
+
 	color: #272063;
 	font-size: 33px;
 	font-family: "Rubik";
 }
 
+.back-intelligentwebsite .image-back-3{
+
+	float: right;
+	margin-top: -1050px;
+	height: 950px;
+	margin-right: -15px;
+	max-width: 750px;
+
+}
 /* ****** Our expert **** */
 
+.our-expert{
+
+	margin-top: 130px;
+	border: 1px hidden black;
+	max-width: 1300px;
+}
+
 .our-expert span + h1{
+
 	margin-top: 20px;
 }
 
 .client-image{
+
 	margin-top: 50px;
 }
+
 .client-image h5{
 
 	font-family: "Poppins", sans-serif;
 	color:#272063;
 	margin-top: 30px;
+
 }
 
 .our-expert .card{
 
 	margin-top: 150px;
+
 }
 
 .our-expert .card .card-title{
+
 	color: #272063;
 	font-size: 25px;
 	line-height: 1.5;
 }
 
 .our-expert .card .name{
+
 	color: #ff4745;
 }
 
 .our-expert .card .date{
+
 	color:#272063;
 }
 
 .our-expert .card .comments{
+
 	color:#272063;
 }
+
+.client-image img{
+
+	height: 350px;
+}
+
+
+/* ******** image background ********* */
+
+.back-ourteam .image-back-3{
+
+	margin-top: -1490px;
+	margin-left: -3px;
+	height: 800px;
+}
+
+/*******************************************/
 
 
 /* **** newsletter **** */
 
 
-.newsletters h1{
+.card-container h1{
 
-	font-size: 48px;
+	
 	color:#272063;
-	margin-top: 80px;
+	font-size: 40px;
 	font-family: "Poppins", sans-serif;
-	margin-left: -70px;
+	
 
 }
-
 
 
 .newsletters span{
@@ -764,22 +821,294 @@ background-size: 130px;
 	
 }
 
-.newsletters textarea{
 
-	margin-top: 110px;
-	border-top: none;
-	border-right: none;
-	border-left: none;
-	margin-left: 50px;
-	border-bottom: 1px solid lightgray;
-	font-size: 20px;
-	height: 55px;
+.form-control{
+
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  max-width: 450px;
+  margin-top: 5px;
 }
 
-.newsletters button{
-	margin-top: 105px;
-	margin-left: -55px;
-	height: 60px;
-	width: 170px;
+
+.bouton-contact-us{
+
+  height: 50px;
+  max-width: 150px;
+  border: 1px hidden black;
+  margin-top: 10px;
+ border-radius: 50px;
+ background: #ff4745;
+
+}
+
+
+.liste-newsletter li{
+
+	display: block;
+	margin-top: -35px;
+}
+
+
+.card-container .card{
+
+  margin: 0 auto;
+  border: 1px hidden black;
+  background: #f3f6f8;
+  max-width: 1300px;
+  min-height: 250px;
+}
+
+.card-container{
+
+	margin-top: 100px;
+}
+
+.card-container .card-body{
+
+  border: 1px hidden black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.card-body .row{
+
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+}
+
+/* ***** contact filed ***** */
+
+.contact-field{
+
+	max-width: 1300px;
+	margin-top: 130px;
+}
+
+.contact-field .logo-bizzco{
+
+	width: 135px;
+}
+
+.contact-field p{
+
+	font-size: 16px;
+	font-family: "Rubik";
+	line-height: 2;
+}
+
+.contact-field ul li{
+
+	display: block;
+	margin-top: -10px;
+	font-family: "Rubik";
+}
+
+
+.contact-field  li{
+
+	padding: 13px;
+	font-family: inherit;
+}
+
+
+.tr{
+
+	width: 20%;
+	margin-left: 0;
+	margin-top: 20px;
+	border: 1px solid lightgray;
+	background: lightgray;
+}
+
+.contact-field  li h4{
+
+	color: #272063;
+	font-size: 25px;
+	font-family: "Rubik";
+
+}
+
+.contact-field li a{
+
+	color:#9290a3;
+
+}
+
+.map{
+
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.contactus .media{
+
+	margin-top: 10px;
+	line-height: 1.5;
+	font-size: 15.5px;
+
+}
+
+.back-contact .image-back-3{
+	float: right;
+	margin-right: -5px;
+	margin-top: -375px;
+	margin-bottom: 0;
+
+}
+
+
+
+.container-footer{
+
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font-family: "Rubik";
+}
+
+.trr{
+	position: absolute;
+	margin-top: 435px;
+	width: 100%;
+}
+
+.bizzo{
+
+	color: #272063;
 	font-size: 18px;
+}
+
+.contact-field .logoparagraph + .usefulllink{
+
+	margin-left: 60px;
+}
+
+.logoparagraph ul{
+
+	margin-left: -30px;
+}
+
+.logoparagraph ul li{
+
+display: inline-block;
+
+}
+
+.logoparagraph  li{
+	
+	max-width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px hidden black;
+	background: #f3f6f8;
+}
+
+.logoparagraph  .iconn{
+
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -4px;
+    color: gray;
+}
+
+
+.logoparagraph  .iconn1{
+
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -6px;
+	color:gray;
+}
+
+.logoparagraph  li:nth-child(1){
+	background: #ff4745;
+}
+
+
+.logoparagraph  li:hover{
+	background: #ff4745;
+
+}
+
+/* ******* */
+
+
+.textlogo ul{
+
+	margin-left: -30px;
+}
+
+.textlogo ul li{
+
+display: inline-block;
+
+}
+
+.textlogo  li{
+	
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px hidden black;
+	background: #f3f6f8;
+	margin-left: 5px;
+}
+
+.textlogo .iconn{
+
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -4px;
+    color: gray;
+}
+
+
+.textlogo  .iconn1{
+
+	position: absolute;
+	margin-top: -1px;
+	margin-left: -6px;
+	color:gray;
+}
+
+.textlogo  li:nth-child(1){
+	background: #ff4745;
+}
+
+
+.textlogo  li:hover{
+	background: #ff4745;
+
+}
+
+
+/* **** media screen for */
+
+@media screen and (max-width: 1110px){
+
+	.back-ourteam .image-back-3{
+		display: none;
+	}
+
+.back-intelligentwebsite .image-back-3{
+		display: none;
+	}
+
+.back-contact .image-back-3{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 321px){
+
+	
+
 }
