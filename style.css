@@ -20,7 +20,7 @@ overflow-x: hidden;
 	background: #fe6d34;
 	border-radius: 20px;
 	color:white;
-	height: 43px;
+	max-height: 43px;
 	
 	
 }
@@ -152,6 +152,7 @@ textarea{
 
 /* *** correction the position of logo on the top navbar *** */
 
+
 @media screen and (max-width: 1645px){
 	.logo-brand{
 		
@@ -162,6 +163,7 @@ textarea{
 /* ** button hamburger ** */
 
 .contnav .navbar-toggler i{
+
 	margin-left: 25px;
 	background: #fe6d34;
 	font-size: 35px;
@@ -169,6 +171,7 @@ textarea{
 }
 
 .navbar-toggler{
+
 	border: none;
 	background: white;
 }
@@ -189,29 +192,15 @@ textarea{
 
 	margin: 0 auto;
 	height: 80px;
-    background: white;
+    background: transparent;
+    margin-top: -120px;
 }
 
-.navbar .container{
+
+.navbar .container-fluid{
     
 	margin-top: 100px;
 }
-
-.center-content li{
-
-	padding: 13px;
-	font-size: 20px;
-}
-
-
-.icon{
-
-	font-size: 45px;
-	margin-left: 50px;
-	margin-top: -10px;
-	color:  #fe6d34;
-}
-
 
 
 .back-image{
@@ -223,20 +212,62 @@ textarea{
 	position: absolute;
 }
 
+#navbarSupportedContent li{
+
+	padding: 15px;
+	
+}
+
+#navbarSupportedContent li:nth-child(1){
+
+	border-bottom: 3px solid #fe6d34;
+	
+}
+
+#navbarSupportedContent .listenav li{
+color:  #9290a3;
+}
+
+#navbarSupportedContent .media i{
+
+	margin-top: -45px;
+	font-size: 36px;
+	color: #fe6d34;
+}
+
+#navbarSupportedContent .media .media-body{
+
+	margin-top: -45px;
+
+}
+
+#navbarSupportedContent .listenav{
+	margin: 0 auto;
+}
 
 
+@media screen and (max-width: 2983px){
 
-/* hiddinf contact number */
-@media screen and (max-width: 1752px){
+	#navbarSupportedContent .media{
+		margin-left: 140px;
+	}
+}
 
-	.icon{
+
+@media screen and (max-width: 1343px){
+
+	#navbarSupportedContent .media{
 		display: none;
 	}
 	
-	.needhelp{
-		display: none;
+}
+
+@media screen and (max-width: 983px){
+	.navbar{
+		margin-top: -250px;
 	}
 }
+
 
 
 /* ************************** Slider section: a full service creative *********************  */
@@ -260,12 +291,40 @@ ul li{
   color: black;
 }
 
+.slidercontainer{
 
+	
+	margin-top: -300px;
+}
+
+
+#carouselExampleIndicators{
+
+	z-index: -5;
+}
+
+.carousel-inner .carousel-item:nth-child(2){
+
+	margin-top: 250px;
+}
+
+
+
+.carousel-inner .carousel-item:nth-child(2) h1{
+
+	
+}
+
+.carousel-inner .active img{
+
+margin-left: -20px;
+
+}
 
 /* ***********  section: we made plan and we do success our plan ************ */
 
 .section-made-plan{
-	margin-top: 250px;
+	margin-top: 150px;
 }
 
 .plan-made-title{
@@ -303,6 +362,24 @@ font-weight: bolder;
 	max-width: 65%;
 	margin-top: 10px;
 
+}
+
+.leading{
+	max-height: 1300px;
+	margin-top: 150px;
+}
+
+
+@media screen and (max-width: 802px){
+	.section-made-plan{
+		margin-top: 550px;
+	}
+
+	.carousel-inner .active img{
+
+width: 100%;
+
+}
 }
 
 /* ********** Global Network ******* */
@@ -375,7 +452,7 @@ font-weight: bolder;
 
 
 
-/* ********** section : we are loading international Consulting Agency *********** */
+/* ********** section : we are leading international Consulting Agency *********** */
 
 .agency-title{
 
@@ -387,6 +464,7 @@ margin-top: 50px;
 font-weight: bolder;
 
 }
+
 
 
 .check-icon{
@@ -411,8 +489,16 @@ font-weight: bolder;
 
 .texte-liste{
 	font-size: 14.8px;
+	color: #9290a3;
+	    font-family: inherit;
 }
 
+.top-texte{
+	color: #9290a3;
+	font-size: 14px;
+	line-height: 1.7;
+	    font-family: inherit;
+}
 /* **** image-back-1 ***** */
 
 .image-back-2{
@@ -431,6 +517,35 @@ font-weight: bolder;
 p + .media{
 	margin-top: 35px;
 }
+
+.leading{
+	max-width: 1300px;
+}
+
+.leadingimg{
+	margin-left: -50px;
+}
+
+@media screen and (max-width: 1000px){
+	.leadingimg{
+		display: none;
+	}
+
+	.image-back-3{
+		display: none;
+	}
+}
+
+/* ajustement de travel & tour */
+
+@media screen and (max-width: 990px){
+
+	.travelandtour{
+		margin-top: 100px;
+	}
+
+}
+
 /* *********** section: what we do ************** */
 
 .whatwedo span:nth-child(1){
@@ -633,6 +748,7 @@ background-size: 130px;
 
 	border: 1px hidden black;
 	max-width: 1350px;
+	margin-top: 150px;	
 }
 
 .ourworkcontainer span{
@@ -651,12 +767,47 @@ background-size: 130px;
 	
 }
 
+
+.ourworkcontainer .bodylist{
+	
+	height: 50px;
+
+}
+
+.ourworkcontainer .bodylist ul{
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 517px){
+
+	.ourworkcontainer .bodylist ul{
+		text-align: left;
+	}
+
+	.ourworkcontainer li{
+	border-bottom: none;
+    
+}
+
+.ourworkcontainer li:nth-child(1){
+	border-bottom: none;
+}
+
+}
+
+
 .ourworkcontainer h1+ul {
 	margin-top: 70px;
 }
 
 .ourworkcontainer span+h1{
 	margin-top: 10px;
+}
+
+.ourworkcontainer ul{
+	margin: 0 auto;
 }
 
 .ourworkcontainer li{
@@ -1107,8 +1258,3 @@ display: inline-block;
 	}
 }
 
-@media screen and (max-width: 321px){
-
-	
-
-}
