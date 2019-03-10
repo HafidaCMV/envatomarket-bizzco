@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
 
   <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width">
 
   <!-- ****************************************************************** bootstrap ******************************************************* -->
@@ -26,6 +28,19 @@
 
 <link href="https://fonts.googleapis.com/css?family=Anton|Baloo|Helvetica|Arial|Titillium+Web|Rubik|Poppins" rel="stylesheet">
 
+<!--************************************************************************ JQUERY ***************************************************** -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<!--************************************************************************ Counter up ***************************************************** -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+
+<!--************************************************************************ Waypoints ***************************************************** -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+<!--************************************************************************ AOS ***************************************************** -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!--************************************************************************ fichier ccs ***************************************************** -->
 
@@ -36,13 +51,12 @@
 
 <body>
 
-<!-- ************************************ top navbar ************************************ -->
-
 <div id="topnavbar">
 
   <!-- logo -->
 
      <div class="logo-brand">
+
   <a href="https://themeforest.net/item/xaedkb-digital-marketing-html-template/23322298" class="navbar-brand logo">  <img class="img-fluid logo" src="image/envatomarket.png"></a>
 
     </div>
@@ -62,28 +76,27 @@
  
 </div>
 
+
 <!-- second nav bar -->
+<nav class="navbar navbar-expand-lg">
+
+ 
+
+    <a class="navbar-brand" href="#"> <img src="image/logo.png"> </a>  
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+     <span class="navbar-toggler-icon "><i class="fas fa-bars text-dark"></i></span>
+
+</button>
+ 
+
+<div class="d-flex flex-row bd-highlight mb-3 justify-conten-arround">
+
+<div class="collapse navbar-collapse p-2 bd-highlight" id="navbarSupportedContent"> 
 
 
-<!-- *********************************************** second nav bar ******************************* -->
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light">
-
-   <div class="container">
-
-     <a class="navbar-brand" href="#"> <img src="image/logo.png"> </a>
-
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-     <span class="navbar-toggler-icon"></span>
-
-   </button> 
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<!-- ADD -->
-     <ul class="listenav"> 
+   <ul> 
 
         <li> <strong> Home</strong> </li>
         <li> <strong> About </strong> </li>
@@ -93,94 +106,107 @@
         <li> <strong> Blog </strong> </li>
         <li> <strong> Team </strong> </li>
 
-<!--  <span> <i class="far icon fa-frown-open"></i> </span> <span> Needs For Help <br>002-456-3692</span> ----->
-        
-         
+    </ul>
 
-    </ul>     
-         
+  </div> 
+ 
 
-<div class="media">
 
-  <i class="far icon fa-frown-open mr-3"></i>
 
-  <div class="media-body">
+<div class="p-2 bd-highlight texteetnum">
 
-     <strong> Needs For Help <br>002-456-3692 </strong> 
+  <div class="media">
+
+         <i class="fas icon fa-headphones mr-3"></i>
+
+     <div class="media-body">
+
+     <strong> Needs For Help <br> <span class="number"> <strong> 002-456-3692  </strong> </span> </strong> 
     
+     </div>
+
+    </div>
   </div>
 
-</div>
-
-          
-
-       
-     
-
-</div>
-
-  </div>
+ </div>
 
 
+</nav> 
 
-</nav>
+
 
 
 <!-- slider section -->
 
-<div class="container-fluid slidercontainer">
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-  <ol class="carousel-indicators">
-
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-
-  </ol>
-
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 
   <div class="carousel-inner">
 
-<!-- first image -->
-
     <div class="carousel-item active">
 
-      <img src="image/slider-2.png" class="d-block w-100 img-fluid slider-2" alt="slider-2">
+      <div class="container-fluid">
 
-    </div>
+  <img src="image/slider-2.png" alt="Snow" style="width:100%;" class="img-fluid">
 
-    <div class="carousel-item justify-content-center">
+  <div class="centered" data-aos="fade-up"
+     data-aos-duration="3000"> <center> <h3> <strong> Join Us to Improve <br> Your Business </strong> </h3>
 
 
-      <div class="row">
+ <p class="text-secondary"> But I must explain to you how all this mistaken idea of <br> denouncing pleasure and praising pain was born </p>
+<!--  <button class="btn">Get a Quota</button>  -->
+    <div class="btn1">Get a Quota</div> 
 
-      <div class="col-lg-6 col-md-12 col-sm-12 text-right"> 
 
-           <span class="text-secondary"> Creative Studio </span>
 
-           <h1 class="full-service-title text-right"> <strong> A Full Service <br> Creative Agency </strong></h1>
-
-       </div>
-
-<!-- second image -->
-
-     <div class="col-lg-6 col-md-12 col-sm-12"> 
-
-<img src="image/slider-shape-1.png" class="img-responsive img-fluid"> 
+  </center> 
 
      </div>
 
- </div>
 
-    </div>
-    
+
+   </div>
+      
+ </div>
+  
+<!-- second slider -->
+
+   <div class="carousel-item">
+
+      <div class="container">
+
+<div class="row">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">  
+
+  <img src="image/slider-shape-1.png" alt="Snow" style="width:100%;" class="img-responsive">
+
   </div>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <div class="col-lg-6 col-md-6 col-sm-12">  
+
+<!-- creative studio -->
+
+   <span class="text-secondary ml-2"> Creative Studio </span>
+  
+    <h1 class="ml-2"> A Full Service <br> Creative Agency </h1> 
+
+    <span> <button class="btn mt-3 text-dark bg-white quotabutton"> Learn More </button> </span>  <span> <button class="btn mt-3 ml-2 quotabutton">Get a Quota </button> </span>
+
+
+  </div>
+
+</div>
+
+
+
+</div>
+      
+</div>
+
+</div>
+
+
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
 
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
@@ -188,7 +214,7 @@
 
   </a>
 
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
 
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
@@ -199,39 +225,48 @@
 </div>
 
 
-</div>
-
-
 <!-- ************ section: we made plan and we do success our plan **************** -->
 
-<div class="container section-made-plan">
+<div class="container conte">
 
-  <div class="row">
+   <div class="container section-made-plan">
 
-    <div class="col-lg-5 col-md-12 col-sm-12">
+     <center>
 
-      <h1 class="plan-made-title ml-2"> <strong> We Made Plan And We <br> Do Success <u class="under-plan"> <span>Our Plan </span> </u> </strong> </h1>
+       <div class="row">
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+
+      <h1 class="plan-made-title ml-2 text-left"> <strong> We Made Plan And We <br> Do Success <u class="under-plan"> <span>Our Plan </span> </u> </strong> </h1>
       
 
-  </div>
+       </div>
 
 
-   <div class="col-lg-7 col-md-12 col-sm-12">
+   <div class="col-lg-6 col-md-12 col-sm-12 justify-content-center">
 
-    <p class="texte-section-made-plan"> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty.</p>
+    <p class="texte-section-made-plan text-left"> On the other hand, we denounce with righteous indignation and dislike men who  are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresee the pain and trouble that are bound ensue and equal blame belongs to those who fail in their duty.</p>
 
-  </div>   
+   </div>   
 
 
 <!-- Global net work -->
+</div>
+</center>
+</div>
 
-<div class="col-lg-4 col-md-6 col-sm-12 cards"> 
+<div class="container-fluid wemadecards">
+     <center>
 
-<div class="media">
+   <div class="row">
 
-  <i class="fab fa-hubspot media-icon mr-3"></i>
+     <div class="col-lg-4 col-md-6 col-sm-12 cards text-left"> 
 
-  <div class="media-body">
+     <div class="media">
+
+         <i class="fab fa-hubspot media-icon mr-3"></i>
+
+       <div class="media-body">
 
     <h5 class="title-1 mt-0"> <strong> Media heading </strong></h5>
 
@@ -240,46 +275,46 @@ and praising pain was born.</p>
 
 <a href="#" class="readme"> <strong> Read More </strong></a>
 
-  </div>
+     </div>
 
-</div>
+    </div>
 
 
-</div>
+   </div>
 
 <!-- Digital Agency -->
 
-<div class="col-lg-4 col-md-6 col-sm-12 cards"> 
+<div class="col-lg-4 col-md-6 col-sm-12 cards text-left"> 
 
-<div class="media">
+    <div class="media">
 
-  <i class="far fa-heart mr-3"></i>
+       <i class="far fa-heart mr-3"></i>
 
-  <div class="media-body">
+        <div class="media-body">
 
     <h5 class="title-1 mt-0"> <strong> Media heading </strong></h5>
 
    <p> But I must explain to you how all this mistaken idea of denouncing pleasure 
 and praising pain was born.</p>
 
-<a href="#" class="readme"> <strong> Read More </strong></a>
+      <a href="#" class="readme"> <strong> Read More </strong></a>
 
-  </div>
+       </div>
 
-</div>
+    </div>
 
 </div>
 
 
 <!-- Trusted Partner -->
 
-<div class="col-lg-4 col-md-6 col-sm-12 cards"> 
+<div class="col-lg-4 col-md-6 col-sm-12 cards text-left"> 
 
-<div class="media">
+      <div class="media">
 
-  <i class="far fa-handshake mr-3"></i>
+        <i class="far fa-handshake mr-3"></i>
 
-  <div class="media-body">
+           <div class="media-body">
 
     <h5 class="title-1 mt-0"> <strong> Media heading </strong></h5>
 
@@ -288,104 +323,113 @@ and praising pain was born.</p>
 
 <a href="#" class="readme"> <strong> Read More </strong></a>
 
-  </div>
+          </div>
 
-</div>
-
-
-</div>
+      </div>
 
 
+     </div>
 
-</div>
+   </div>
 
-</div>
+   </center>
+
+   </div>
+
+
+ </div>
 
 <!-- back ground image -->
 
 <div class="container-fluid">
 
-<img src="image/shape-4.png" class="image-back-1">
+       <img src="image/shape-4.png" class="image-back-1">
 
 </div>
 
 
-<!-- we are loading international consulting agency -->
+<!-- **********************  we are loading international consulting agency ********************* -->
 
 <div class="container-fluid leading">
 
-<div class="row"> 
+     <div class="row"> 
 
 <!-- image about-agency-1-->
 
-<div class="col-lg-6 col-md-12 col-sm-12">
+       <div class="col-lg-6 col-md-12 col-sm-12">
 
-<img src="image/about-agency-1.png" class="img-fluid leadingimg" alt="Responsive image">
+        <img src="image/about-agency-1.png" class="img-fluid leadingimg" alt="Responsive image">
 
-</div>
+       </div>
 
 <!-- title : we are loading international consulting agency -->
 
-<div class="col-lg-6 col-md-12 col-sm-12">
+       <div class="col-lg-6 col-md-12 col-sm-12">
 
-<h1 class="agency-title">   We Are Leading International Consulting <u class="under-plan"> <span> Agency </span> </u> </h1>
+       <h1 class="agency-title">   We Are Leading International Consulting <u class="under-plan"> <span> Agency </span> </u> </h1>
 
-<p class="top-texte mt-3"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
-</p>
+       <p class="top-texte mt-3"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+       </p>
 
 
 <!-- liste -->
 
 <!-- first list -->
 
-<div class="media  media-liste">
+<div class="media  media-liste" data-aos="fade-up">
 
- <i class="fas fa-check-circle check-icon mr-3"></i>
+     <i class="fas fa-check-circle check-icon mr-3"></i>
 
-  <div class="media-body">
+       <div class="media-body">
 
     
    <p class="texte-liste"> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure bucause those who do not know how to pursue pleasure. </p>
 
-  </div>
+       </div>
 
 </div>
 
 
-<!-- second mlist -->
+<!-- second list -->
 
-<div class="media media-liste">
+<div class="media media-liste" data-aos="fade-up">
 
- <i class="fas fa-check-circle check-icon mr-3"></i>
+       <i class="fas fa-check-circle check-icon mr-3"></i>
 
   <div class="media-body">
 
     
-   <p  class="texte-liste"> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure bucause those who do not know how to pursue pleasure. 
-</p>
+       <p  class="texte-liste"> No one rejects, dislikes, or avoids pleasure itself, because it is pleasure bucause those who do not know how to pursue pleasure. 
+       </p>
+
   </div>
 
 </div>
 
 <!-- third list -->
 
-<div class="media  media-liste">
+<div class="media  media-liste" data-aos="fade-up">
 
- <i class="fas fa-check-circle check-icon mr-3"></i>
+      <i class="fas fa-check-circle check-icon mr-3"></i>
 
-  <div class="media-body">
+    <div class="media-body">
 
-   <p  class="texte-liste"> 
+       <p  class="texte-liste"> 
     No one rejects, dislikes, or avoids pleasure itself, because it is pleasure bucause those who do not know how to pursue pleasure. 
-</p>
+      </p>
+
   </div>
 
 </div>
 
-<button class="bouton-contact-us"> Contact Us</button>
+<!-- contact us button -->
+
+   <button class="bouton-contact-us"> <strong>Contact Us </strong></button>
+
 </div>
 
 <div class="col-lg-6 col-md-12 col-sm-12">
+
 </div>
 
 
@@ -394,57 +438,66 @@ and praising pain was born.</p>
 </div>
 
 <!--  background-->
+
 <div class="container-fluid">
 
 <img src="image/shape-5.png" class="image-back-2">
 
 </div>
 
-
 <!-- *************************** section :  what we do ************************ -->
 
-<div class="container whatwedo">
+<div class="container-fluid whatwedo">
 
   <center>
 
   <span> <strong> WHAT WE DO </strong> </span>
+
   <h1 class="agency-title"> Service We Provide </h1>
 
-</center>
-
-<div class="row whatwedocards">
-
-<!-- investment planing -->
-
- <div class="col-lg-4 col-md-6 col-sm-12">
-
-<div class="media">
-
-  <i class="far fa-user mr-4"></i>
-
-  <div class="media-body">
-
-    <h5 class="mt-0 title-2"> <strong> Investment  <br> Planning </strong></h5>
-   
-  </div>
+ </center>
 
 </div>
 
-<p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+<div class="container-fluid containercards">
 
-<a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
+  <center>
+
+     <div class="row whatwedocards">
+
+
+<!-- investment planing -->
+
+     <div class="col-lg-4 col-md-6 col-sm-12 text-left" data-aos="fade-up">
+
+         <div class="media">
+
+           <i class="far fa-user mr-4"></i>
+
+         <div class="media-body">
+
+           <h5 class="mt-0 title-2"> <strong> Investment  <br> Planning </strong></h5>
+   
+        </div>
+
+        </div>
+
+
+        <p class="texte-card mt-3 "> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+
+         <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
 </div>
 
 
 <!-- Business consulting -->
 
-<div class="col-lg-4 col-md-6 col-sm-12">
+<div class="col-lg-4 col-md-6 col-sm-12 text-left investment" data-aos="fade-up">
 
-<div class="media">
+     <div class="media">
 
-  <i class="fas fa-copy mr-4"></i> 
+        <i class="fas fa-copy mr-4"></i> 
 
-  <div class="media-body">
+     <div class="media-body">
 
     <h5 class="mt-0 title-2"> <strong> Investment  <br> Planning </strong></h5>
    
@@ -453,21 +506,21 @@ and praising pain was born.</p>
 </div>
 
 
-<p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+     <p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
 
-<a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
+     <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
 
 </div>
 
 <!-- Travel Tour consulting   <i class="fab fa-telegram-plane mr-3"></i>  -->
 
-<div class="col-lg-4 col-md-6 col-sm-12 travelandtour">
+<div class="col-lg-4 col-md-6 col-sm-12 travelandtour text-left" data-aos="fade-up">
 
-<div class="media">
+     <div class="media">
 
-  <i class="fab fa-telegram-plane mr-3"></i>
+     <i class="fab fa-telegram-plane mr-3"></i>
 
-  <div class="media-body">
+     <div class="media-body">
 
     <h5 class="mt-0 title-2"> <strong> Travel & Tour  <br> consulting </strong></h5>
    
@@ -476,7 +529,7 @@ and praising pain was born.</p>
 </div>
 
 
-<p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+      <p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
 
 <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
 
@@ -485,7 +538,7 @@ and praising pain was born.</p>
 
 <!--SEO Digital Marketing -->
 
-<div class="col-lg-4 col-md-6 col-sm-12 section-2">
+<div class="col-lg-4 col-md-6 col-sm-12 section-2 text-left" data-aos="fade-up">
 
 
 <div class="media">
@@ -501,20 +554,20 @@ and praising pain was born.</p>
 </div>
 
 
-<p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+      <p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
 
-<a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
+      <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
 
 </div>
 
 
 <!--Insurance and Banking -->
 
-<div class="col-lg-4 col-md-6 col-sm-12 section-2"> 
+<div class="col-lg-4 col-md-6 col-sm-12 section-2 text-left" data-aos="fade-up"> 
 
-<div class="media">
+      <div class="media">
 
-  <i class="fas fa-home mr-4"></i>
+        <i class="fas fa-home mr-4"></i>
 
   <div class="media-body">
 
@@ -525,9 +578,9 @@ and praising pain was born.</p>
 </div>
 
 
-<p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
+    <p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
 
-<a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
+    <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
 
 </div>
 
@@ -535,8 +588,7 @@ and praising pain was born.</p>
 <!-- Environment Consulting -->
 
 
-
-<div class="col-lg-4 col-md-6 col-sm-12 section-2"> 
+<div class="col-lg-4 col-md-6 col-sm-12 section-2 text-left" data-aos="fade-up"> 
 
 <div class="media">
 
@@ -555,17 +607,19 @@ and praising pain was born.</p>
 <p class="texte-card mt-3"> But I must explain to you how all this mistaken idea of denouncing pleasure and praising painwa born is and I will give you a complate. </p>
 
 <a href="#" class="mt-5 links"> <u> <strong> Read More </strong> </u></a>
-</div>
 
-</div>
+     </div>
 
+   </div>
+
+  </center>
 
 </div>
 
 
 <div class="container-fluid">
 
-<img src="image/shape-6.png" class="image-back-3">
+  <img src="image/shape-6.png" class="image-back-3">
 
  </div>
 
@@ -573,11 +627,11 @@ and praising pain was born.</p>
 
 <!-- client feedback -->
 
-<div class="container feedback-client">
+<div class="container-fluid feedback-client">
 
   <center>
 
-  <span> Client Feedback </span>
+  <span> <strong> CLIENT FEEDBACK  </strong> </span>
 
   <h1> <strong> What's Our Client Say </strong></h1>
 
@@ -588,17 +642,24 @@ and praising pain was born.</p>
 
   <blockquote>
 
-<div class="media">
+       <div class="media">
 
   <img src="image/1.png" class="mr-4 ml-4" alt="founder">
 
-  <div class="media-body text-left">
+         <div class="media-body text-left">
+
+<!-- quote section -->
 
      <blockquote>
 
- <p> But I must explain to you how all this mistaken idea of  denouncing pleasure and praising painwa born is and I  will give you a complate account of the system and  expound the actual point about it .</p>
+ <p class="text-justify mr-3"> But I must explain to you how all this mistaken idea of  denouncing pleasure and praising painwa born is and I  will give you a complate account of the system and  expound the actual point about it .</p>
 
-<footer class="text-left mt-4"> <strong> Joseph M.Erwin </strong> <cite title="Source Title">, Founder</cite></footer>
+<footer class="text-left mt-4 mb-3"> <strong> Joseph M.Erwin </strong> 
+
+  <cite title="Source Title">, Founder
+</cite>
+
+</footer>
 
 </blockquote>
 
@@ -616,16 +677,20 @@ and praising pain was born.</p>
 </div>
 
 
+<!-- image background client right side -->
 
  <div class="container-fluid images-right">
 
  <img src="image/7.png" class="image-back-4-1">
+
  <img src="image/6.png" class="image-back-4">
+
  <img src="image/8.png" class="image-back-4-2">
 
 
  </div>
 
+<!-- image background client left side -->
 
  <div class="container-fluid ">
 
@@ -639,8 +704,7 @@ and praising pain was born.</p>
 
  </div>
 
-
-<!-- ******** our work ********* -->
+<!-- ******** section : our work ********* -->
 
     <div class="container-fluid ourworkcontainer"> 
 
@@ -667,7 +731,7 @@ and praising pain was born.</p>
 
       </ul>
 </div>
-<!-- images -->
+
 
 <center>
 
@@ -741,11 +805,7 @@ and praising pain was born.</p>
     </div>
 
 
-
-<!-- Intellignet websites  shape-7.png -->
-
-
-
+<!-- section : Intellignet websites -->
 
 <div class="container major-container-website">
 
@@ -765,31 +825,31 @@ and praising pain was born.</p>
  <div class="row intelligent-container">
 
 
-     <div class="col-lg-3 col-md-3 col-sm-12">
-        <p>  25+</p>
+     <div class="col-lg-3 col-md-3 col-sm-12 numm">
+        <p class="numero"> <strong>  25 </strong> </p>
          <span> Years Of <br> Experience </span>
 
      </div>
 
-<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="col-lg-3 col-md-3 col-sm-12 numm">
 
-<p>  98+</p>
+<p class="numero"> <strong> 98 </strong> </p>
 
 <span> Expert Team Member </span>
 
 </div>
 
-<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="col-lg-3 col-md-3 col-sm-12 numm">
 
-<p>  3k+</p>
+<p class="numero"> <strong>  3 </strong> </p>
 
 <span> Project <br>Complate </span>
 
 </div>
 
-<div class="col-lg-3 col-md-3 col-sm-12">
+<div class="col-lg-3 col-md-3 col-sm-12 numm">
 
-<p>  99%</p>
+<p class="numero"> <strong> 99 </strong></p>
 
 <span> Clients <br> Satisfied </span>
 
@@ -807,7 +867,8 @@ and praising pain was born.</p>
 
 </div>
 
-<!-- Our expert -->
+
+<!-- section : Our expert -->
 
 <div class="container-fluid our-expert">
 
@@ -874,10 +935,9 @@ and praising pain was born.</p>
 
   </div>
 
+  <!-- section : Blog feed -->
 
-<!-- Blog feed -->
-
-<div class="container our-expert">
+<div class="container our-expert blogfeed">
 
   <center>
 
@@ -902,9 +962,9 @@ and praising pain was born.</p>
 
     <span class="name"> <i class="far fa-user"></i> Jhonathan </span> 
 
-    <span class="date"> <i class="far fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
+    <span class="date"> <i class="far text-secondary fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
 
-    <span class="comments"> <i class="far fa-comments ml-3"></i> (02) </span> 
+    <span class="comments"> <i class="far text-secondary fa-comments ml-3"></i> (02) </span> 
     
   </div>
 
@@ -927,9 +987,9 @@ and praising pain was born.</p>
 
     <span class="name"> <i class="far fa-user"></i> Jhonathan </span> 
 
-    <span class="date"> <i class="far fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
+    <span class="date"> <i class="far text-secondary fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
 
-    <span class="comments"> <i class="far fa-comments ml-3"></i> (02) </span> 
+    <span class="comments"> <i class="far text-secondary fa-comments ml-3"></i> (02) </span> 
     
   </div>
 
@@ -952,9 +1012,9 @@ and praising pain was born.</p>
 
     <span class="name"> <i class="far fa-user"></i> Jhonathan </span> 
 
-    <span class="date"> <i class="far fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
+    <span class="date"> <i class="far text-secondary fa-calendar-alt ml-3"></i> 30 Dec 2018 </span> 
 
-    <span class="comments"> <i class="far fa-comments ml-3"></i> (02) </span> 
+    <span class="comments"> <i class="far text-secondary fa-comments ml-3"></i> (02) </span> 
     
   </div>
 
@@ -976,12 +1036,12 @@ and praising pain was born.</p>
 </div>
 
 
-
-<!-- newsletters -->
+<!-- section :  newsletters -->
 
 
 
 <div class="card-container">
+
 <div class="card">
 
   <div class="card-body">
@@ -992,7 +1052,7 @@ and praising pain was born.</p>
 
 <h1> <strong> Newsletters  </strong> </h1>
 
-<span class="text-secondary mt-5"> Consectetur adipisicing elit, sed do eiusmod tempoe </span>
+<span class="text-secondary mt-5 texte-newsletter"> Consectetur adipisicing elit, sed do eiusmod tempoe </span>
 
  </div>
 
@@ -1016,7 +1076,7 @@ and praising pain was born.</p>
 
  </div>
 
-<!-- *******  Contact field  ******* -->
+<!--  section : Contact field  -->
 
 <hr class="trr">
 
@@ -1038,9 +1098,13 @@ and praising pain was born.</p>
      <ul>
 
        <li>     <i class="fab fa-facebook-f text-white iconn"></i>  <!-- facebook --> </li>
+
        <li>    <i class="fab fa-twitter  iconn1"></i>   </li> <!-- twitter -->
+
        <li>    <i class="fab fa-behance  iconn1"></i> </li>  <!-- behance-->
+
        <li>   <i class="fab fa-skype  iconn1"></i>  </li> <!-- skype -->
+
        <li>     <i class="fab fa-instagram  iconn1"></i>  </li> <!-- instagram -->
 
      </ul>
@@ -1049,7 +1113,7 @@ and praising pain was born.</p>
 
    
 
-<!-- usefull link -->
+<!-- usefull link column-->
 
      <div class="col-lg-3 col-md-12 col-sm-12 usefulllink mt-3">
 
@@ -1069,7 +1133,7 @@ and praising pain was born.</p>
 
      </div>
 
-<!-- contact us -->
+<!-- contact us column -->
 
 <div class="col-lg-4 col-md-12 col-sm-12 contactus mt-3">
 
@@ -1077,7 +1141,7 @@ and praising pain was born.</p>
 
         <li> <h4> <strong> Contact Us </strong> </h4> <hr class="tr">  </li>
         
-    <li>    
+      <li>    
           
           <div class="media">
 
@@ -1087,6 +1151,7 @@ and praising pain was born.</p>
     
     205 Koontz Lane, North South,
      CA, United States.
+
   </div>
 
 </div>
@@ -1116,6 +1181,7 @@ and praising pain was born.</p>
            <div class="media-body">
     
     +08 (123) 456 99
+    
   </div>
 
 </div>
@@ -1137,8 +1203,9 @@ and praising pain was born.</p>
 
  </div>
 
+<!-- footer -->
 
-<footer>
+ <footer>
 
   <div class="container container-footer">
 
@@ -1154,13 +1221,26 @@ and praising pain was born.</p>
 
 
 
-<!-- footer -->
+<!-- background contact -->
 
 <div class="container-fluid back-contact">
 
 <img src="image/shape-9.png" class="image-back-3">
 
 </div>
+
+<!-- java script counter up -->
+
+<script type="text/javascript">
+  $(".numero").counterUp({delay:10, time:1000});
+
+  AOS.init({
+
+    duration: 1200,
+  })
+</script>
+
+
 
 </body>
 </html>
