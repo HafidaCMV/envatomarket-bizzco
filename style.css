@@ -1806,6 +1806,7 @@ margin-top: -1550px;
 
 
 @media screen and (max-width: 3616px) and (min-width: 2971px){
+
 	#topnavbar{
 		height: 60px;
 	}
@@ -1813,11 +1814,13 @@ margin-top: -1550px;
 }
 
 @media screen and (max-width: 3400px) and (min-width: 2910px){
+
 	#topnavbar{
 		height: 60px;
 	}
 }
 @media screen and (min-width: 4000px){
+	
 	.btn-buy{
 	margin-left: -150px;
 }
